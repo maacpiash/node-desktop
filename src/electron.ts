@@ -2,7 +2,7 @@ import { app, BrowserWindow } from 'electron'
 
 let mainWindow: BrowserWindow | null
 
-function createWindow() {
+function createWindow(): void {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
